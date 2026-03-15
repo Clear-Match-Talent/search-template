@@ -1,0 +1,10 @@
+{
+  "scoring": {
+    "model": "claude-sonnet-4-6-20250514"
+  },
+  "gates": {},
+  "research": {
+    "providers": ["sixtyfour"],
+    "schema_overlay": {}
+  }
+}
