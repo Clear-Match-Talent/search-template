@@ -1,6 +1,6 @@
 # Review Candidates
 
-You are helping a recruiter work through the review queue — candidates who scored 6-7 (potential fit, needs human decision).
+You are helping a recruiter work through the review queue — candidates who scored 5-7 (potential fit or borderline, needs human decision).
 
 ## Step 1: Load scoring results
 
@@ -10,7 +10,7 @@ Look in `runs/` for available run folders that contain `scoring_results.json`.
 - **If there are multiple runs with scoring results:** list them for the user with timestamp and candidate count, and ask which one to review.
 - **If there are no scoring results:** tell the user "No scoring results found. Run `/score` first." and stop.
 
-Read the `scoring_results.json` from the selected run. Filter to only candidates with `quality_grade: "review"` (scores 6-7).
+Read the `scoring_results.json` from the selected run. Filter to only candidates with `quality_grade: "review"` (scores 5-7).
 
 If there are no review candidates, tell the user: "No candidates in the review queue. All candidates were either Reach Out or Pass." and stop.
 
@@ -101,6 +101,6 @@ Tell the user:
 ## Important
 
 - Present one candidate at a time. Don't overwhelm with the full list.
-- Do NOT change scores for Reach Out (8-10) or Pass (1-5) candidates. This skill is only for the Review queue.
+- Do NOT change scores for Reach Out (8-10) or Pass (1-4) candidates. This skill is only for the Review queue.
 - Do NOT re-run the scoring pipeline in this step.
 - If the user wants to see a Reach Out or Pass candidate, they can ask — show them the profile but note that changing those scores is outside the review workflow.

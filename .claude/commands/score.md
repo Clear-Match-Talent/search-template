@@ -33,8 +33,8 @@ After scoring completes, read the `scoring_results.json` from the new run folder
 - Total candidates scored
 - Breakdown by grade:
   - **Reach Out (8-10):** [count] candidates
-  - **Review (6-7):** [count] candidates
-  - **Pass (1-5):** [count] candidates
+  - **Review (5-7):** [count] candidates
+  - **Pass (1-4):** [count] candidates
 - List the Reach Out candidates by name, score, and one-line rationale
 - Note any candidates that failed to score (errors)
 
@@ -42,9 +42,9 @@ After scoring completes, read the `scoring_results.json` from the new run folder
 
 Tell the user:
 - "Scoring is complete. Here's what to do next:"
-- "Run `/review` to walk through the Review queue (6-7 scored candidates) and make final decisions."
+- "Run `/review` to walk through the Review queue (5-7 scored candidates) and make final decisions."
 - "Reach Out candidates (8-10) are ready for outreach — they've been marked as active_tracking in the system."
-- "Pass candidates (1-5) have been marked as passed. No action needed."
+- "Pass candidates (1-4) have been marked as passed. No action needed."
 
 ## Important
 

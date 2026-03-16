@@ -39,8 +39,8 @@ Patterns that indicate a candidate is not a fit. Be specific about what actually
 |-------|---------|
 | 9-10 | Exceptional fit. Matches must-haves and multiple strong signals. Prioritize for outreach. |
 | 8 | Strong fit. Matches must-haves and some strong signals. Reach out. |
-| 6-7 | Potential fit. Matches must-haves but unclear on strong signals. Needs human review. |
-| 4-5 | Weak fit. Missing some must-haves or has concerning signals. Pass unless context changes. |
+| 5-7 | Potential fit or borderline. Needs human review. Includes candidates worth airtag tracking or cross-role targeting. |
+| 4 | Weak fit. Missing key experience depth or has concerning signals. Pass unless context changes. |
 | 1-3 | Not a fit. Missing must-haves or has red flags. Clear pass. |
 ```
 
