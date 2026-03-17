@@ -6,12 +6,12 @@ This repo is the workspace for a single candidate search. Copy it for each new s
 
 1. **Clone the pipeline repo:**
    ```bash
-   git clone https://github.com/Clear-Match-Talent/Candidate-List-Pulling.git
+   git clone https://github.com/Clear-Match-Talent/cmt-pipeline.git
    ```
 
 2. **Install the pipeline as a package:**
    ```bash
-   cd Candidate-List-Pulling/projects/cmt-pipeline
+   cd cmt-pipeline
    pip install -e .
    ```
 

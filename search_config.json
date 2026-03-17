@@ -1,8 +1,12 @@
 {
   "scoring": {
-    "model": "claude-sonnet-4-6"
+    "model": "claude-sonnet-4-6-20250514",
+    "matrix_enabled": true
   },
-  "gates": {},
+  "gates": {
+    "title_exclusions": [],
+    "locations_include": []
+  },
   "research": {
     "providers": ["sixtyfour"],
     "schema_overlay": {}
