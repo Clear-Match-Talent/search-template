@@ -1,0 +1,6 @@
+# Raw provider payloads are kept on DISK forever (a parser fix must be free, never a re-pull)
+# but are too large for git. Never delete them; re-flatten with cmt-pipeline/scripts/reflatten.py.
+runs/**/stage2_profiles.json
+runs/**/*_raw.json
+.checkpoints/
+__pycache__/
